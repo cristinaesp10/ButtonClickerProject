@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    margin: 0px auto;
+    width: 800px;
+}
+
+.navbar {
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+.body {
+    display: flex;
+}
+
+.col1 {
+    flex:4;
+}
+
+.col2 {
+    flex:1;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.ninja1, .ninja2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 10px 10px 0px;
+}
+
+.col1 button {
+    background-color:darkgoldenrod;
+    box-shadow: 4px 4px 4px black;
+    margin: 5px 0px;
+}
+
+.addDef {
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    margin: 10px 0px 10px 10px;
+}
+
+.addDef button {
+    background-color: darkgreen;
+    box-shadow: 4px 4px 4px black;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
